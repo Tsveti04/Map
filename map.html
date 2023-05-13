@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="map.css" />
+  <script src="myfirst.js"></script>
+  <title>Maps</title>
+
+  <style>
+    #map {
+      height: 550px;
+      width: 550px;
+      margin: 5rem auto;
+      margin-top: -400px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+
+<body style="background-color:rgb(211, 208, 208);">
+  <h1>Sights in Bulgaria</h1>
+  <div class="header2">Bulgaria</div>
+  <div class="header3">Choose sight</div>
+
+  <div class="text">Bulgaria officially the Republic of Bulgaria, is a country in Southeast Europe.
+    It is situated on the eastern flank of the Balkans, and is bordered by Romania to the north,
+    Serbia and North Macedonia to the west, Greece and Turkey to the south, and the Black Sea to the east.
+    Bulgaria covers a territory of 110,994 square kilometers (42,855 sq mi),
+    and is the sixteenth-largest country in Europe. Sofia is the nation's capital and largest city;
+    other major cities are Plovdiv, Varna and Burgas.</div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+  <div class="button button1 "><button id="button button1" onclick="Sofia()">Sofia</button></div>
+  <div class="button button2"><button id="button button2" onclick="Rila()">Rila National Park</button></div>
+  <div class="button button3"><button id="button button3" onclick="Silistra()">The Srebarna Nature Reserve</button>
+  </div>
+  <div class="button button4"><button id="button button4" onclick="Plovdiv()">Plovdiv</button></div>
+  <div class="button button5"><button id="button button5" onclick="Burgas()">Burgas</button></div>
+  <div class="button button6"><button id="button button6" onclick="Varna()">Varna</button></div>
+  <div class="button button7"><button id="button button7" onclick="Pirin()">Pirin National Park</button></div>
+  <div class="button button8"><button id="button button8" onclick="StaraPlanina()">Central Balkan National Park</button>
+  </div>
+
+  <section class="footer">
+  <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+    <p class="copyright">Flower 2022</p>
+  </section>
+</body>
+
+</html>

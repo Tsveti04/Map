@@ -1,0 +1,151 @@
+.header2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+  .header3{
+    position: absolute;
+    font-size: 40px;
+    margin-top: -35px;
+    margin-left:1400px;
+  }
+  
+  .text {
+    width: 500px;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+    button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:hover {
+    border: 1px solid white;
+   }
+   
+   button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+
+   .button1{
+    margin-left: 1350px;
+    margin-top: -550px;
+   }
+   .button2{
+   
+    margin-left: 1550px;
+    margin-top: -45px;
+    
+   }
+   .button3{
+    margin-left: 1550px;
+    margin-top: 50px;
+   }
+   .button4{
+    margin-left: 1350px;
+    margin-top: -49px;
+   }
+   .button5{
+    margin-left: 1350px;
+    margin-top: 55px;
+   }
+   .button6{
+    margin-left: 1350px;
+    margin-top: 55px;
+   }
+   .button7{
+    margin-left: 1550px;
+    margin-top: -152px;
+   }
+   .button8{
+    margin-left: 1550px;
+    margin-top: 55px;
+   }
+
+   /*footer*/
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lucida Console";
+    font-weight: 400;
+    background-color: #ededed;
+  }
+  
+  .footer {
+    margin-top: 240px;
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+  
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+  }
+  
+  .footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+  
+  .footer .social a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  .footer ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
